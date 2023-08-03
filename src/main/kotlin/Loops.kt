@@ -28,7 +28,6 @@ fun main(args: Array<String>) {
            continue    //  creates an infinite loop
        println(number++)
    }
-   solution to the above problem...
    number = 0
    while (number < 10) {
        number++
