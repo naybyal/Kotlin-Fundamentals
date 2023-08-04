@@ -17,6 +17,8 @@ class Employee(firstName: String, var lastName: String = "last-name", var age: I
         get() {
             return "First Name : $field"
         }
+//        This can also simply be written as...
+//        get() = field
         set(value) {
             println("$value was assigned to firstName property")
             field = value
