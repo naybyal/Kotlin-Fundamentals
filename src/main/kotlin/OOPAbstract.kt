@@ -13,11 +13,11 @@ abstract class VehicleNew {
 class NewCar(var name: String, var color: String, val engines: Int, val doors: Int): Vehicle() {
     override fun move() {
         super.move()
-        println("$name is moving")
+        println("$name moves.")
     }
 
     override fun stop() {
         super.stop()
-        println("$name has stopped")
+        println("$name stops.")
     }
 }
